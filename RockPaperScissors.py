@@ -6,7 +6,7 @@ import random
 
 
 while True:
-    available_options = ['R = rock', 'P = paper',  'S = scissors']
+    available_options = ['rock', 'paper',  'scissors']
     computer_options = random.choice(available_options)
     user_options = input("Enter Your Weapons: rock, paper, scissors: ")
 
